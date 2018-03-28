@@ -1,8 +1,8 @@
-package com.avides.vaadinpush.spring;
+package com.avides.vaadin.ui;
 
 import org.springframework.stereotype.Component;
 
-import com.avides.vaadinpush.spring.domain.Listing;
+import com.avides.vaadin.domain.Listing;
 
 import lombok.extern.slf4j.Slf4j;
 

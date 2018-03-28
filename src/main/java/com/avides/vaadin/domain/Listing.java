@@ -1,4 +1,4 @@
-package com.avides.vaadinpush.spring.domain;
+package com.avides.vaadin.domain;
 
 public class Listing
 {

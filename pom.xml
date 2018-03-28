@@ -2,10 +2,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.avides.vaadinpush</groupId>
-  <artifactId>vaadin_push</artifactId>
-  <name>vaadin-push</name>
-  <version>1.0-SNAPSHOT</version>
+  <groupId>com.avides.vaadin</groupId>
+  <artifactId>vaadin-flow-push-example</artifactId>
+  <name>vaadin-flow-push-example</name>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <parent>
@@ -13,6 +13,32 @@
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>2.0.0.RELEASE</version>
   </parent>
+
+  <developers>
+    <developer>
+      <id>hadamski</id>
+      <name>Henrik Adamski</name>
+      <email>hadamski@avides.com</email>
+      <organization>AVIDES Media AG</organization>
+      <organizationUrl>http://www.avides.com</organizationUrl>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>Europe/Berlin</timezone>
+    </developer>
+  </developers>
+
+  <organization>
+    <name>AVIDES Media AG</name>
+    <url>http://www.avides.com</url>
+  </organization>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
 
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>

@@ -1,4 +1,4 @@
-package com.avides.vaadinpush.spring;
+package com.avides.vaadin.ui;
 
 import com.vaadin.flow.component.Tag;
 import com.vaadin.flow.component.dependency.HtmlImport;

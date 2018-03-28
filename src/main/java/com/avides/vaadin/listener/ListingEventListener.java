@@ -1,4 +1,4 @@
-package com.avides.vaadinpush.spring.listener;
+package com.avides.vaadin.listener;
 
 import java.util.UUID;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
-import com.avides.vaadinpush.spring.MainViewPresenter;
-import com.avides.vaadinpush.spring.domain.Listing;
+import com.avides.vaadin.domain.Listing;
+import com.avides.vaadin.ui.MainViewPresenter;
 
 import lombok.extern.slf4j.Slf4j;
 

@@ -1,11 +1,11 @@
-package com.avides.vaadinpush.spring;
+package com.avides.vaadin.ui;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
-import com.avides.vaadinpush.spring.domain.Listing;
+import com.avides.vaadin.domain.Listing;
 import com.vaadin.flow.component.AttachEvent;
 import com.vaadin.flow.component.DetachEvent;
 import com.vaadin.flow.component.UI;

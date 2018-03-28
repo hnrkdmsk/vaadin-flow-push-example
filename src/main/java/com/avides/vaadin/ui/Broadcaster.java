@@ -1,11 +1,11 @@
-package com.avides.vaadinpush.spring;
+package com.avides.vaadin.ui;
 
 import java.util.LinkedList;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 import java.util.function.Consumer;
 
-import com.avides.vaadinpush.spring.domain.Listing;
+import com.avides.vaadin.domain.Listing;
 import com.vaadin.flow.shared.Registration;
 
 import lombok.experimental.UtilityClass;

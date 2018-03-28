@@ -1,4 +1,4 @@
-package com.avides.vaadinpush.spring;
+package com.avides.vaadin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class ExampleServletInitializer
+public class Application
 {
     public static void main(String[] args)
     {
-        SpringApplication.run(ExampleServletInitializer.class, args);
+        SpringApplication.run(Application.class, args);
     }
 }
