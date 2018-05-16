@@ -21,7 +21,6 @@ public class MainViewPresenter
     {
         if (mainViewInterface != null)
         {
-            // Broadcaster.broadcast(listing);
             mainViewInterface.displayListing(listing);
             log.info("Display {}", listing);
         }

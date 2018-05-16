@@ -23,6 +23,8 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class MainView extends VerticalLayout implements MainViewInterface
 {
+    private static final long serialVersionUID = 7314300070167738427L;
+
     private final Grid<Listing> listingGrid = new Grid<>();
 
     private final transient List<Listing> listingGridItems = new ArrayList<>();
@@ -31,6 +33,8 @@ public class MainView extends VerticalLayout implements MainViewInterface
 
     @Autowired
     private transient MainViewPresenter mainViewPresenter;
+
+    private UI currentUi;
 
     public MainView()
     {
@@ -42,9 +46,7 @@ public class MainView extends VerticalLayout implements MainViewInterface
     protected void onAttach(AttachEvent attachEvent)
     {
         mainViewPresenter.setMainViewInterface(this);
-
-        UI ui = attachEvent.getUI();
-        Broadcaster.register(value -> ui.access(() -> displayListing(value)));
+        currentUi = attachEvent.getUI();
     }
 
     @Override
@@ -69,10 +71,11 @@ public class MainView extends VerticalLayout implements MainViewInterface
     @Override
     public void displayListing(Listing listing)
     {
-        listingGridItems.add(listing);
-        listingGrid.getDataProvider().refreshAll();
-        log.info("Updated grid {}", listingGridItems);
-
-        add(new ExampleTemplate("Listing: " + listing.getId()));
+        currentUi.access(() ->
+        {
+            listingGridItems.add(listing);
+            listingGrid.getDataProvider().refreshAll();
+            log.info("Updated grid {}", listingGridItems);
+        });
     }
 }
