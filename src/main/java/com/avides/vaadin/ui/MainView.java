@@ -11,8 +11,6 @@ import com.vaadin.flow.component.DetachEvent;
 import com.vaadin.flow.component.UI;
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.grid.Grid;
-import com.vaadin.flow.component.icon.Icon;
-import com.vaadin.flow.component.icon.VaadinIcons;
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.data.provider.ListDataProvider;
 import com.vaadin.flow.router.Route;
@@ -29,7 +27,7 @@ public class MainView extends VerticalLayout implements MainViewInterface
 
     private final transient List<Listing> listingGridItems = new ArrayList<>();
 
-    private final Button refreshGridButton = new Button("Refresh items", new Icon(VaadinIcons.REFRESH), cmd -> listingGrid.getDataProvider().refreshAll());
+    private final Button refreshGridButton = new Button("Refresh items", cmd -> listingGrid.getDataProvider().refreshAll());
 
     @Autowired
     private transient MainViewPresenter mainViewPresenter;

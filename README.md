@@ -7,9 +7,9 @@ This application is running on Undertow as web server.
 
 ## Libraries
 
-- Java 9
+- Java 10
 - Spring Boot 2.0.2.RELEASE
-- Vaadin Flow 10.0.0.beta10
+- Vaadin Flow 10.0.1
 
 ## Run this example
 
