@@ -9,7 +9,7 @@ This application is running on Undertow as web server.
 
 - Java 11
 - Spring Boot 2.1.6.RELEASE
-- Vaadin Flow 13.0.8
+- Vaadin Flow 13.0.9
 
 ## Run this example
 
