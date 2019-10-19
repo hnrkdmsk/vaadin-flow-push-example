@@ -8,7 +8,7 @@ import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 
 @SpringBootTest(classes = Application.class, webEnvironment = RANDOM_PORT)
 @SpringJUnitConfig
-class ApplicationIT
+class ApplicationTest
 {
     @Test
     void testRun()
