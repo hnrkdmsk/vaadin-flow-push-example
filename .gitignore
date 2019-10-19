@@ -1,3 +1,4 @@
+# IDE
 target/
 *.iml
 .idea/
@@ -6,3 +7,10 @@ target/
 .classpath
 .factorypath
 .vscode/
+
+# VAADIN
+/*.js
+/*.json
+node_modules/
+build/
+config/
