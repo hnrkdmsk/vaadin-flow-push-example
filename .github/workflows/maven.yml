@@ -16,6 +16,11 @@ jobs:
         with:
           java-version: 11
 
+      - name: check-envrionment
+        run: |
+          java --version
+          docker ps -a
+
       - name: checkout
         uses: actions/checkout@v1
 
