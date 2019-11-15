@@ -29,6 +29,8 @@ jobs:
         run: mvn clean verify
 
       - name: analyze
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           export SONAR_ORGANIZATION=$(echo ${GITHUB_REPOSITORY} | cut -d / -f 1)
           mvn clean verify sonar:sonar \
