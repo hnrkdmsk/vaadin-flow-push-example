@@ -1,6 +1,6 @@
 # Vaadin Flow Push Example (Spring Boot & Undertow)
-[![Release](https://github.com/loefflefarn/workflmasterows/vaadin-flow-push-example/release/badge.svg)](https://github.com/loefflefarn/vaadin-flow-push-example/actions)
-[![Nightly](https://github.com/loefflefarn/workflmasterows/vaadin-flow-push-example/nightly/badge.svg)](https://github.com/loefflefarn/vaadin-flow-push-example/actions)
+[![Build](https://github.com/loefflefarn/vaadin-flow-push-example/workflows/release/badge.svg)](https://github.com/loefflefarn/vaadin-flow-push-exampleworkflows/actions)
+[![Nightly](https://github.com/loefflefarn/vaadin-flow-push-example/workflows/nightly/badge.svg)](https://github.com/loefflefarn/vaadin-flow-push-example/actions)
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=loefflefarn_vaadin-flow-push-example&metric=alert_status)](https://sonarcloud.io/dashboard?id=loefflefarn_vaadin-flow-push-example)
 
 This project demonstrate a Spring Boot 2 and Vaadin Flow application with configured server push. 
