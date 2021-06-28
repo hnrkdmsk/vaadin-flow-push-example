@@ -47,7 +47,7 @@
     <failOnMissingWebXml>false</failOnMissingWebXml>
     <webapp.directory>src/main/webapp</webapp.directory>
     <!-- Dependencies -->
-    <vaadin.version>14.0.12</vaadin.version>
+    <vaadin.version>14.6.2</vaadin.version>
   </properties>
 
   <repositories>
